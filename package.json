@@ -1,0 +1,31 @@
+{
+  "name": "calvad_aggregate_hourlies",
+  "description": "Aggregate hourly summaries of CalVAD imputations up to daily, weekly, monthly",
+  "version": "0.0.1",
+  "homepage": "http://www.github.com/jmarca",
+  "author": "James E. Marca <jmarca@translab.its.uci.edu> (http://www.activimetrics.com)",
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": ">0.8"
+  },
+  "dependencies": {
+      "optimist":"",
+      "lodash": "",
+      "async": "",
+      "makedir":"",
+      "date-functions": "git://github.com/jmarca/date-functions.git",
+      "geo_bbox": "git://github.com/jmarca/geo_bbox.git"
+  },
+    "devDependencies": {
+        "should":""
+  },
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/jmarca/calvad_aggregate_hourlies.git"
+  },
+  "main": "index.js",
+  "optionalDependencies": {},
+    "license": "MIT"
+}
