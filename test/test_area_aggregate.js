@@ -67,6 +67,7 @@ describe('aggregate simple',function(){
                                                   "600277","600278","600279","600280",
                                                   "600281","600282",
                                                   "wim.10.N","wim.10.S"])
+                            agg.features[0].properties.data[0][14].should.eql(16)
 
                             return done()
                         })
@@ -172,6 +173,7 @@ describe('aggregate bigger file',function(){
                             agg.features[0].properties.data[0].length.should.be.above(16)
                             var detectors = agg.features[0].properties.data[0].slice(15)
                             detectors.should.have.property('length',222)
+                            agg.features[0].properties.data[0][14].should.eql(222)
 
                             return done()
                         })
