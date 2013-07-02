@@ -16,7 +16,7 @@
       "async": "",
       "makedir":"",
       "date-functions": "git://github.com/jmarca/date-functions.git",
-      "geo_bbox": "git://github.com/jmarca/geo_bbox.git"
+      "calvad_areas": "git://github.com/jmarca/calvad_areas.git"
   },
     "devDependencies": {
         "should":""
