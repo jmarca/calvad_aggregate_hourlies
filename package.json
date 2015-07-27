@@ -11,21 +11,21 @@
     "node": ">0.8"
   },
   "dependencies": {
-      "optimist":"",
-      "lodash": "",
-      "async": "",
-      "makedir":"",
-      "date-functions": "git://github.com/jmarca/date-functions.git",
-      "calvad_areas": "git://github.com/jmarca/calvad_areas.git"
+    "calvad_areas": "git://github.com/jmarca/calvad_areas.git",
+    "date-functions": "git://github.com/jmarca/date-functions.git",
+    "lodash": "",
+    "makedir": "",
+    "optimist": "",
+    "queue-async": "^1.0.7"
   },
-    "devDependencies": {
-        "should":""
+  "devDependencies": {
+    "should": ""
   },
   "repository": {
-        "type": "git",
-        "url": "https://github.com/jmarca/calvad_aggregate_hourlies.git"
+    "type": "git",
+    "url": "https://github.com/jmarca/calvad_aggregate_hourlies.git"
   },
   "main": "index.js",
   "optionalDependencies": {},
-    "license": "MIT"
+  "license": "MIT"
 }
